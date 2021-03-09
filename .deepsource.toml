@@ -1,6 +1,10 @@
 version = 1
 
 test_patterns = ["src/**/*.test.tsx"]
+exclude_patterns = [
+  "scripts/**",
+  "config/**",
+]
 
 [[analyzers]]
 name = "javascript"

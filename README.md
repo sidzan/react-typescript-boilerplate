@@ -1,7 +1,7 @@
 # Quick start Typescript Boilerplate
 
 ![ActionStatus](https://github.com/sidzan/react-typescript-boilerplate/actions/workflows/push.yml/badge.svg)
-
+[![DeepSource](https://deepsource.io/gh/sidzan/react-typescript-boilerplate.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/sidzan/react-typescript-boilerplate/?ref=repository-badge)
 
 ## Available Scripts
 
