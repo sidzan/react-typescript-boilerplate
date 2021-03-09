@@ -2,9 +2,15 @@ name: Unit Test Run
 
 on:
   push:
-    branches: main
+    branches:
+      - main
+      - dev
+      - 'feature/**'
   pull_request:
-    branches: main
+    branches:
+      - main
+      - dev
+      - 'feature/**'
 
 jobs:
   build:
