@@ -1,0 +1,16 @@
+- label: "Setup"
+  message: "Completed"
+  color: "green"
+
+- label: "Preview"
+  message: "PR $prNumber"
+  color: "blue"
+  url: "https://pr-$prNumber.company.com"
+
+- label: "PR Size"
+  message: "Large"
+  color: "red"
+  when: "$additions > 200"
+
+- message: "$payload.pull_request.user.login"
+  color: "green"
