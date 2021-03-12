@@ -13,7 +13,7 @@ const DefaultLayout: React.FC = ({route}) => (
             <li><Link to={"/contact"}>Contact</Link></li>
         </ul>
         {/* child routes won't render without this */}
-        <React.Suspense fallback={<div>Loading...</div>}>
+        <React.Suspense fallback={<div/>}>
             {renderRoutes(route.routes)}
         </React.Suspense>
     </div>
