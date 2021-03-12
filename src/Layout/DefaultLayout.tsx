@@ -1,7 +1,6 @@
 import * as React from 'react'
 import {renderRoutes} from "react-router-config";
 import {Link} from "react-router-dom";
-import Loading from '../components/Loading'
 
 // @ts-ignore
 const DefaultLayout: React.FC = ({route}) => (
