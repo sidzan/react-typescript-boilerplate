@@ -1,6 +1,7 @@
 import * as React from 'react'
 import {renderRoutes} from "react-router-config";
 import {Link} from "react-router-dom";
+import Loading from '../components/Loading'
 
 // @ts-ignore
 const DefaultLayout: React.FC = ({route}) => (
@@ -13,7 +14,7 @@ const DefaultLayout: React.FC = ({route}) => (
             <li><Link to={"/contact"}>Contact</Link></li>
         </ul>
         {/* child routes won't render without this */}
-        <React.Suspense fallback={<div>Loading...</div>}>
+        <React.Suspense fallback={<div/>}>
             {renderRoutes(route.routes)}
         </React.Suspense>
     </div>
