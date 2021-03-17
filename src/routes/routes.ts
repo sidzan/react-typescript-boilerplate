@@ -1,6 +1,6 @@
 import * as React from 'react';
-import DefaultLayout from "../Layout/DefaultLayout";
 import {RouteConfig} from "react-router-config";
+import DefaultLayout from "../layout/DefaultLayout";
 
 const Home = React.lazy(() => import(  /* webpackPrefetch: true, webpackChunkName: "Home" */  "../pages/Home/Home"));
 const Contact = React.lazy(() => import(  /* webpackPrefetch: true, webpackChunkName: "Contact" */  "../pages/Contact/Contact"));
